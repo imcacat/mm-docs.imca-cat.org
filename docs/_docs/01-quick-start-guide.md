@@ -1,7 +1,7 @@
 ---
-title: "Quick-Start Guide"
-permalink: /docs/quick-start-guide/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
+title: "Guides"
+permalink: /guides/
+excerpt: "How to do anything and everything related to IMCA-CAT operations."
 last_modified_at: 2021-06-07T08:48:05-04:00
 redirect_from:
   - /theme-setup/

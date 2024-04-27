@@ -6,7 +6,7 @@ last_modified_at: 2024-04-23T00:43:19+08:00
 toc: true
 ---
 
-If you're using the [Ruby Gem]({{ "/docs/quick-start-guide/#gem-based-method" | relative_url }}) or [remote theme]({{ "/docs/quick-start-guide/#remote-theme-method" | relative_url }}) versions of Minimal Mistakes, upgrading is fairly painless.
+If you're using the [Ruby Gem]({{ "/guides/#gem-based-method" | relative_url }}) or [remote theme]({{ "/guides/#remote-theme-method" | relative_url }}) versions of Minimal Mistakes, upgrading is fairly painless.
 
 To check which version you are currently using, view the source of your built site and you should see something similar to:
 

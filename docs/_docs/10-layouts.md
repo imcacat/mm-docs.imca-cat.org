@@ -682,7 +682,7 @@ docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: /guides/
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"

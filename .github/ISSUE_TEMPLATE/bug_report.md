@@ -9,7 +9,7 @@ about: "Is something not working as expected?"
   - Verify you have the latest versions of Jekyll and Minimal Mistakes 
     installed by running `bundle update`.
   - Thoroughly read the theme's documentation at
-    https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    https://mmistakes.github.io/minimal-mistakes/guides/
   - Search all issues at https://github.com/mmistakes/minimal-mistakes/issues 
     for solutions and to avoid duplication.
   - Ask for help at http://talk.jekyllrb.com/

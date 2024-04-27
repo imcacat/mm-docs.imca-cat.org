@@ -1,3 +1,10 @@
+# IMCA-CAT Documentation Project
+
+Welcome. I hope you enjoy :)
+
+> fin
+---
+# Original `README.md`
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
@@ -149,7 +156,7 @@ To install:
 
 ## Usage
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/guides/).
 
 ## Contributing
 

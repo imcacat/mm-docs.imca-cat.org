@@ -1,23 +1,4 @@
-# Jekyll generated files
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-
-# Hugo
-/public/
-/resources/_gen/
-hugo_stats.json
-
-# Markdown, Asciidoc, reStructured Text
-*.md
-*.adoc
-*.rst
-
-# Jinja
-*.jinja
-*.jinja2
+syntax: glob
 
 # Node.js
 node_modules/
@@ -103,18 +84,6 @@ docker-compose.override.yml
 *.tfstate
 *.tfstate.backup
 *.tfvars
-
-# Version Control
-.git/
-*.swp
-*.bak
-*.tmp
-*~
-
-# Logs and databases
-*.log
-*.sql
-*.sqlite
 
 # OS generated files
 .DS_Store

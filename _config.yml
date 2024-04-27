@@ -8,26 +8,29 @@
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+# https://mmistakes.github.io/minimal-mistakes/guides/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# remote_theme           : "mmistakes/minimal-mistakes@4.25.0"
+
+#minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+imca_cat_skin            : "blue.light"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "IMCA-CAT"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+subtitle                 : "IMCA-CAT" # site tagline that appears below site title in masthead
+name                     : "crystal"
+description              : "Useful information pertaining to IMCA-CAT."
+url                      : "https://docs.imca-cat.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "imcacat/docs.imca-cat.org" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "assets/images/logos/imca-cat-logo-72ppi-500x500.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
@@ -111,18 +114,22 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Friendly Neighborhood Crystallographers"
+  avatar           : "assets/images/logos/imca-cat-logo-72ppi-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : >+
+   "IMCA-CAT aims to accelerate drug discovery research by developing and operating a state-of-the-art,
+   industry-funded structural biology synchrotron beamline optimized for high-throughput macromolecular
+   crystallography serving the pharmaceutical industry."
+  location         : >+
+    "<p>Sector 17, Advanced Photon Source</p><p>@ Argonne National Laboratory</p>"
+  email            : "support@imca-cat.org"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://imca-cat.org"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -188,8 +195,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  # - /docs # ignore Minimal Mistakes /docs
+  # - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -232,11 +239,19 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll_asciidoctor_pdf
+  - jekyll-archives
+  - jekyll-asciidoc
+  - jekyll-asciimath
+  - jekyll-asciinema
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-plugin
+  - jekyll-include-cache
+  - jekyll-lab-notebook-plugins
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-toc
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -275,6 +290,17 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+# From the official Jekyll docs.
+# jekyll-archives:
+#   enabled: []
+#   layout: archive
+#   permalinks:
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
+#     tag: '/tag/:name/'
+#     category: '/category/:name/'
+
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -297,3 +323,69 @@ defaults:
       comments: # true
       share: true
       related: true
+
+
+
+
+# 2024-04-27 JRG List of Jekyll plugins supported by GitHub pages.
+# --
+# GitHub Pages uses the following dependencies and versions:
+#
+# Dependency	Version
+#  github-pages	231
+#  github-pages-health-check	1.18.2
+#  html-pipeline	2.14.3
+#  jekyll	3.9.5
+#  jekyll-avatar	0.8.0
+#  jekyll-coffeescript	1.2.2
+#  jekyll-commonmark-ghpages	0.4.0
+#  jekyll-default-layout	0.1.5
+#  jekyll-feed	0.17.0
+#  jekyll-gist	1.5.0
+#  jekyll-github-metadata	2.16.1
+#  jekyll-include-cache	0.2.1
+#  jekyll-mentions	1.6.0
+#  jekyll-optional-front-matter	0.3.2
+#  jekyll-paginate	1.1.0
+#  jekyll-readme-index	0.3.0
+#  jekyll-redirect-from	0.16.0
+#  jekyll-relative-links	0.6.1
+#  jekyll-remote-theme	0.4.3
+#  jekyll-sass-converter	1.5.2
+#  jekyll-seo-tag	2.8.0
+#  jekyll-sitemap	1.4.0
+#  jekyll-swiss	1.0.0
+#  jekyll-theme-architect	0.2.0
+#  jekyll-theme-cayman	0.2.0
+#  jekyll-theme-dinky	0.2.0
+#  jekyll-theme-hacker	0.2.0
+#  jekyll-theme-leap-day	0.2.0
+#  jekyll-theme-merlot	0.2.0
+#  jekyll-theme-midnight	0.2.0
+#  jekyll-theme-minimal	0.2.0
+#  jekyll-theme-modernist	0.2.0
+#  jekyll-theme-primer	0.6.0
+#  jekyll-theme-slate	0.2.0
+#  jekyll-theme-tactile	0.2.0
+#  jekyll-theme-time-machine	0.2.0
+#  jekyll-titles-from-headings	0.5.3
+#  jemoji	0.13.0
+#  kramdown	2.4.0
+#  kramdown-parser-gfm	1.1.0
+#  liquid	4.0.4
+#  minima	2.5.1
+#  nokogiri	1.15.5
+#  rouge	3.30.0
+#  ruby	2.7.4
+#  safe_yaml	1.0.5
+#  sass	3.7.4
+#  --
+#  For a history of dependency changes, see the past releases.
+#  
+#  Programmatic access
+#  Want a more programmatic way to keep your local version of Jekyll up to date? All dependencies are bundled within the GitHub Pages Ruby gem, or are available programmatically via pages.github.com/versions.json
+#  
+#  Last updated 2024-04-27 06am +0000.
+#  
+#  Status API Training Shop Blog About
+#  © 2024 GitHub, Inc. Terms Privacy Security Contact

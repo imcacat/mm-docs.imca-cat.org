@@ -116,13 +116,13 @@ COPYRIGHT_LINES = [
   "Minimal Mistakes Jekyll Theme #{package_json["version"]} by Michael Rose",
   "Copyright 2013-#{Time.now.year} Michael Rose - mademistakes.com | @mmistakes",
   "Free for personal and commercial use under the MIT license",
-  "https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE",
+  "https://github.com/mmistakes/imca-cat/blob/master/LICENSE",
 ]
 
 COPYRIGHT_FILES = [
   "_includes/copyright.html",
   "_includes/copyright.js",
-  "_sass/minimal-mistakes/_copyright.scss",
+  "_sass/imca-cat/_copyright.scss",
 ]
 
 def genenerate_copyright_file(filename, header, prefix, footer)
@@ -143,7 +143,7 @@ file "_includes/copyright.js" do |t|
   genenerate_copyright_file(t.name, "/*!", " * ", " */")
 end
 
-file "_sass/minimal-mistakes/_copyright.scss" do |t|
+file "_sass/imca-cat/_copyright.scss" do |t|
   genenerate_copyright_file(t.name, "/*!", " * ", " */")
 end
 
