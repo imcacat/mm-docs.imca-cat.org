@@ -1,0 +1,31 @@
+# Monochromatic Theme Configuration for Blue (colors.blue.monochromatic.yml)
+extends:
+  default
+page:
+  size: Letter
+base:
+  font_size: 10
+  font_color: '#285EE7'  # Primary monochromatic blue
+heading:
+  h1_font_color: '#285EE7'  # Same as primary for consistency
+  h2_font_color: '#1D47C5'  # Slightly darker blue
+  h3_font_color: '#1648C6'  # Even darker blue for contrast
+link:
+  font_color: '#3A6EF4'  # Lighter blue for links
+sidebar:
+  font_color: '#285EE7'
+footer:
+  background_color: '#1D47C5'
+  font_color: '#FFFFFF'  # White for readability
+header:
+  background_color: '#1D47C5'
+  font_color: '#FFFFFF'  # White for readability
+code:
+  background_color: '#EEF0FF'  # Very light blue
+  border_color: '#1D47C5'
+table:
+  header_bg_color: '#285EE7'
+  grid_color: '#1648C6'  # Dark blue for table grid
+admonition:
+  border_color: '#1D47C5'
+  background_color: '#EEF0FF'

@@ -1,0 +1,48 @@
+/* Red Color Components */
+.logo-red {
+    color: #EA332C; /* Original red color */
+}
+
+.logo-red-complementary {
+    color: #2CE3EA; /* Complementary color */
+}
+
+.logo-red-monochromatic {
+    color: #CE1B15; /* Monochromatic color */
+}
+
+.logo-red-analogous-original {
+    color: #EA922C; /* First analogous color */
+}
+
+.logo-red-analogous-second {
+    color: #ea2c84; /* Second analogous color */
+}
+
+.logo-red-triadic-original {
+    color: #EA332C; /* Original triadic color */
+}
+
+.logo-red-triadic-second {
+    color: #2CEA33; /* Second triadic color */
+}
+
+.logo-red-triadic-third {
+    color: #332CEA; /* Third triadic color */
+}
+
+.logo-red-tetradic-original {
+    color: #EA332C; /* Original tetradic color */
+}
+
+.logo-red-tetradic-second {
+    color: #84EA2C; /* Second tetradic color */
+}
+
+.logo-red-tetradic-third {
+    color: #2CE3EA; /* Third tetradic color */
+}
+
+.logo-red-tetradic-fourth {
+    color: #922CEA; /* Fourth tetradic color */
+}

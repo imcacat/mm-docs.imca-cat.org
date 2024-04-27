@@ -1,0 +1,31 @@
+# Complementary Theme Configuration for Blue (colors.blue.complementary.yml)
+extends:
+  default
+page:
+  size: Letter
+base:
+  font_size: 10
+  font_color: '#E7B128'  # Complementary color for blue
+heading:
+  h1_font_color: '#E7B128'
+  h2_font_color: '#E7B128'
+  h3_font_color: '#E7B128'
+link:
+  font_color: '#E7B128'
+sidebar:
+  font_color: '#E7B128'
+footer:
+  background_color: '#E7B128'
+  font_color: '#FFFFFF'  # White for readability
+header:
+  background_color: '#E7B128'
+  font_color: '#FFFFFF'  # White for readability
+code:
+  background_color: '#FFF5E0'  # Very light complementary blue
+  border_color: '#E7B128'
+table:
+  header_bg_color: '#E7B128'
+  grid_color: '#CC9F22'  # Darker shade of the complementary blue
+admonition:
+  border_color: '#E7B128'
+  background_color: '#FFF5E0'

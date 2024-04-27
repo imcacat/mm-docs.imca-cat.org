@@ -1,0 +1,40 @@
+/* Dark Theme for Web - colors.blue.dark.css */
+body {
+    color: #FFFFFF; /* White text for high contrast in dark themes */
+    background-color: #222233; /* Very dark blue-grey background */
+}
+
+h1, h2, h3 {
+    color: #3A6EF4; /* Bright blue for headings */
+}
+
+h1 { font-size: 2.34em; }
+h2 { font-size: 1.94em; }
+h3 { font-size: 1.53em; }
+
+a {
+    color: #6EA1F4; /* Brighter blue for hyperlinks */
+}
+
+.sidebar {
+    color: #FFFFFF; /* White text for sidebar */
+}
+
+.footer, .header {
+    background-color: #222233; /* Very dark blue-grey background */
+    color: #3A6EF4; /* Blue text for contrast */
+}
+
+code {
+    background-color: #1A1A1A; /* Dark grey for code blocks */
+    border-color: #285EE7; /* Blue border */
+}
+
+table {
+    border-color: #1D47C5; /* Darker blue for table grids */
+}
+
+.admonition {
+    border-color: #285EE7;
+    background-color: #001A33; /* Very dark blue for admonitions */
+}

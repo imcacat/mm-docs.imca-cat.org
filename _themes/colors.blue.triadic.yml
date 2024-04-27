@@ -1,0 +1,31 @@
+# Triadic Theme Configuration for Blue (colors.blue.triadic.yml)
+extends:
+  default
+page:
+  size: Letter
+base:
+  font_size: 10
+  font_color: '#285EE7'  # Original blue color
+heading:
+  h1_font_color: '#285EE7'  # Same as base for consistency
+  h2_font_color: '#E7285E'  # Second triadic color (red)
+  h3_font_color: '#5EE728'  # Third triadic color (green)
+link:
+  font_color: '#E7285E'  # Red for links
+sidebar:
+  font_color: '#5EE728'  # Green for sidebar
+footer:
+  background_color: '#E7285E'
+  font_color: '#FFFFFF'  # White for readability
+header:
+  background_color: '#E7285E'
+  font_color: '#FFFFFF'  # White for readability
+code:
+  background_color: '#F0FFF0'  # Very light green, suitable for code blocks
+  border_color: '#5EE728'  # Green for borders
+table:
+  header_bg_color: '#285EE7'
+  grid_color: '#5EE728'  # Green for table grids
+admonition:
+  border_color: '#5EE728'
+  background_color: '#FFF0F0'  # Light red for admonitions

@@ -1,0 +1,31 @@
+# Tetradic Theme Configuration for Red (colors.red.tetradic.yml)
+extends:
+  default
+page:
+  size: Letter
+base:
+  font_size: 10
+  font_color: '#EA332C'  # Original red color
+heading:
+  h1_font_color: '#84EA2C'  # Second tetradic color
+  h2_font_color: '#2CE3EA'  # Third tetradic color
+  h3_font_color: '#922CEA'  # Fourth tetradic color
+link:
+  font_color: '#84EA2C'
+sidebar:
+  font_color: '#922CEA'
+footer:
+  background_color: '#84EA2C'
+  font_color: '#333333'  # Default font color for readability
+header:
+  background_color: '#84EA2C'
+  font_color: '#333333'  # Default font color for readability
+code:
+  background_color: '#f0f0f0'  # Default code block background
+  border_color: '#2CE3EA'
+table:
+  header_bg_color: '#84EA2C'
+  grid_color: '#2CE3EA'  # Matching the third tetradic color
+admonition:
+  border_color: '#2CE3EA'
+  background_color: '#F8FFF8'  # Light shade of the

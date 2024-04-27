@@ -1,0 +1,34 @@
+# .prettierconfig.yml for Ruby and Jekyll-based projects
+
+# Use the Ruby plugin for Prettier
+plugins: ["@prettier/plugin-ruby"]
+
+# Ruby specific options
+rubyHashLabel: true
+rubyModifier: true
+rubySingleQuote: true
+rubyToProc: false
+
+# Specify the line width
+printWidth: 80
+
+# Use 2 spaces per indentation level
+tabWidth: 2
+
+# Use spaces instead of tabs
+useTabs: false
+
+# End files with a newline
+endOfLine: "lf"
+
+# Enforce trailing commas wherever possible
+trailingComma: "none"
+
+# Quotes in JSX will always use double quotes
+jsxSingleQuote: false
+
+# Maximum number of statements allowed per line
+maxStatementsPerLine: 1
+
+# Arrow functions will always use parentheses
+arrowParens: "always"

@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Blue Skin - Light Theme
+   ========================================================================== */
+
+/* Colors */
+$base-font-color: #333333 !default; /* Standard dark grey for text in light themes */
+$h1-font-color: #285EE7 !default; /* Primary blue color for main headings */
+$h2-font-color: #1D47C5 !default; /* Slightly darker blue for secondary headings */
+$h3-font-color: #1648C6 !default; /* Even darker blue for tertiary headings */
+$link-font-color: #3A6EF4 !default; /* Lighter blue for hyperlinks */
+$sidebar-font-color: $base-font-color !default; /* Uses the base font color */
+$footer-background-color: #FFFFFF !default; /* White background for footer */
+$footer-font-color: #285EE7 !default; /* Blue font color for footer text */
+$header-background-color: #FFFFFF !default; /* White background for header */
+$header-font-color: #285EE7 !default; /* Blue font color for header text */
+$code-background-color: #F2F2FF !default; /* Very light blue, suitable for code blocks */
+$code-border-color: #285EE7 !default;
+$table-header-bg-color: #285EE7 !default;
+$table-grid-color: #1648C6 !default; /* Dark blue for table grids */
+$admonition-border-color: #285EE7 !default;
+$admonition-background-color: #E6EEFF !default; /* Very light blue for admonitions */
+
+/* Typography */
+.page {
+  size: letter;
+  font-size: 10px;
+  color: $base-font-color;
+}
+
+h1 {
+  color: $h1-font-color;
+}
+
+h2 {
+  color: $h2-font-color;
+}
+
+h3 {
+  color: $h3-font-color;
+}
+
+a {
+  color: $link-font-color;
+}
+
+.sidebar {
+  color: $sidebar-font-color;
+}
+
+.page__footer {
+  background-color: $footer-background-color;
+  color: $footer-font-color;
+}
+
+.header {
+  background-color: $header-background-color;
+  color: $header-font-color;
+}
+
+code {
+  background-color: $code-background-color;
+  border-color: $code-border-color;
+}
+
+table {
+  thead {
+    background-color: $table-header-bg-color;
+  }
+  border-color: $table-grid-color;
+}
+
+.admonition {
+  border-color: $admonition-border-color;
+  background-color: $admonition-background-color;
+}

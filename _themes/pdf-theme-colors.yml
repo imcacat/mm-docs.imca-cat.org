@@ -1,0 +1,16 @@
+extends:
+  default
+page:
+  size: Letter
+base:
+  font_size: 10
+  font_color: '#333333'  # Custom font color for body text
+heading:
+  h1_font_size: floor($base_font_size * 2.34)
+  h2_font_size: floor($base_font_size * 1.94)
+  h3_font_size: round($base_font_size * 1.53)
+  h1_font_color: '#EA332C'  # Custom font color for heading 1
+  h2_font_color: '#285EE7'  # Custom font color for heading 2
+  h3_font_color: '#4deb12'  # Custom font color for heading 3
+link:
+  font_color: '#0066cc'  # Custom link color

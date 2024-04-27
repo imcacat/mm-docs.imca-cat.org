@@ -1,0 +1,37 @@
+/* Copyright comment */
+@import "imca-cat/copyright";
+
+/* Variables */
+@import "imca-cat/variables";
+
+/* Mixins and functions */
+@import "imca-cat/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "imca-cat/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "imca-cat/vendor/susy/susy";
+@import "imca-cat/mixins";
+
+/* Core CSS */
+@import "imca-cat/reset";
+@import "imca-cat/base";
+@import "imca-cat/forms";
+@import "imca-cat/tables";
+@import "imca-cat/animations";
+
+/* Components */
+@import "imca-cat/buttons";
+@import "imca-cat/notices";
+@import "imca-cat/masthead";
+@import "imca-cat/navigation";
+@import "imca-cat/footer";
+@import "imca-cat/search";
+@import "imca-cat/syntax";
+
+/* Utility classes */
+@import "imca-cat/utilities";
+
+/* Layout specific */
+@import "imca-cat/page";
+@import "imca-cat/archive";
+@import "imca-cat/sidebar";
+@import "imca-cat/print";

@@ -1,0 +1,40 @@
+/* Light Theme for Web - colors.blue.light.css */
+body {
+    color: #333333; /* Standard dark grey for text in light themes */
+    background-color: #FFFFFF; /* White background for light theme */
+}
+
+h1, h2, h3 {
+    color: #285EE7; /* Blue for main headings */
+}
+
+h1 { font-size: 2.34em; }
+h2 { font-size: 1.94em; }
+h3 { font-size: 1.53em; }
+
+a {
+    color: #3A6EF4; /* Lighter blue for hyperlinks */
+}
+
+.sidebar {
+    color: #333333; /* Dark grey for sidebar text */
+}
+
+.footer, .header {
+    background-color: #FFFFFF; /* White background */
+    color: #285EE7; /* Blue text */
+}
+
+code {
+    background-color: #F2F2FF; /* Very light blue for code blocks */
+    border-color: #285EE7; /* Blue border for code blocks */
+}
+
+table {
+    border-color: #1648C6; /* Dark blue for table grids */
+}
+
+.admonition {
+    border-color: #285EE7;
+    background-color: #E6EEFF; /* Very light blue for admonitions */
+}

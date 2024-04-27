@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Blue Skin - Dark Theme
+   ========================================================================== */
+
+/* Colors */
+$base-font-color: #FFFFFF !default; /* White text for high contrast in dark themes */
+$h1-font-color: #6EA1F4 !default; /* Bright blue for main headings */
+$h2-font-color: #5D82E7 !default; /* Medium blue for secondary headings */
+$h3-font-color: #5074D1 !default; /* Darker blue for tertiary headings */
+$link-font-color: #6EA1F4 !default; /* Lighter blue for hyperlinks */
+$sidebar-font-color: $base-font-color !default; /* Uses the base font color */
+$footer-background-color: #222233 !default; /* Very dark blue-grey background for footer */
+$footer-font-color: #6EA1F4 !default; /* Lighter blue font color for footer text */
+$header-background-color: #222233 !default; /* Very dark blue-grey background for header */
+$header-font-color: #6EA1F4 !default; /* Lighter blue font color for header text */
+$code-background-color: #2B2B45 !default; /* Dark blue, suitable for code blocks */
+$code-border-color: #5D82E7 !default;
+$table-header-bg-color: #5D82E7 !default;
+$table-grid-color: #5074D1 !default; /* Blue for table grids */
+$admonition-border-color: #5D82E7 !default;
+$admonition-background-color: #333355 !default; /* Very dark blue for admonitions */
+
+/* Typography */
+.page {
+  size: letter;
+  font-size: 10px;
+  color: $base-font-color;
+}
+
+h1 {
+  color: $h1-font-color;
+}
+
+h2 {
+  color: $h2-font-color;
+}
+
+h3 {
+  color: $h3-font-color;
+}
+
+a {
+  color: $link-font-color;
+}
+
+.sidebar {
+  color: $sidebar-font-color;
+}
+
+.page__footer {
+  background-color: $footer-background-color;
+  color: $footer-font-color;
+}
+
+.header {
+  background-color: $header-background-color;
+  color: $header-font-color;
+}
+
+code {
+  background-color: $code-background-color;
+  border-color: $code-border-color;
+}
+
+table {
+  thead {
+    background-color: $table-header-bg-color;
+  }
+  border-color: $table-grid-color;
+}
+
+.admonition {
+  border-color: $admonition-border-color;
+  background-color: $admonition-background-color;
+}

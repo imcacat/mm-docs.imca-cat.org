@@ -1,0 +1,31 @@
+# Dark Theme Configuration for Blue (colors.blue.dark.yml)
+extends:
+  default
+page:
+  size: Letter
+base:
+  font_size: 10
+  font_color: '#FFFFFF'  # White text for high contrast in dark themes
+heading:
+  h1_font_color: '#3A6EF4'  # Bright blue for main headings
+  h2_font_color: '#285EE7'  # Primary blue for secondary headings
+  h3_font_color: '#1D47C5'  # Darker blue for tertiary headings
+link:
+  font_color: '#6EA1F4'  # Brighter blue for hyperlinks
+sidebar:
+  font_color: '#FFFFFF'
+footer:
+  background_color: '#222233'  # Very dark blue-grey background
+  font_color: '#3A6EF4'  # Blue font color
+header:
+  background_color: '#222233'  # Very dark blue-grey background
+  font_color: '#3A6EF4'  # Blue font color
+code:
+  background_color: '#1A1A1A'  # Dark grey, suitable for code blocks
+  border_color: '#285EE7'
+table:
+  header_bg_color: '#285EE7'
+  grid_color: '#1D47C5'  # Dark blue for table grids
+admonition:
+  border_color: '#285EE7'
+  background_color: '#001A33'  # Very dark blue for admonitions
