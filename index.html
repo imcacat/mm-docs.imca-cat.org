@@ -1,8 +1,38 @@
 ---
+title: "Welcome to the IMCA-CAT Documentation Site"
 layout: splash
-author_profile: true
+permalink: /
+header:
+  overlay_color: "#333"
+  overlay_image: /assets/images/your-overlay-image.jpg
+  overlay_filter: 0.5
+  actions:
+    - label: "Get Started"
+      url: "/guides/"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: 'Find all the resources and guides you need to get started.'
+feature_row:
+  - image_path: /assets/images/beamline/dectris_eiger2_X_9m.png__338x225.png
+    alt: "Data Acquisition and Analysis"
+    title: "Data Acquisition and Analysis"
+    excerpt: "This is some sample content that goes into the feature row."
+    url: "/docs/feature-one/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/beamline/gonio-72.png
+    alt: "Operations"
+    title: "Operations"
+    excerpt: "Documentation on how we go about our operations."
+    url: "/docs/feature-two/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/daq/diffraction-Xtal2-1_0004c-web-72.png
+    alt: "data"
+    title: "Other"
+    excerpt: "This is some sample content that goes into the feature row."
+    url: "/docs/feature-three/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-[/index.html]
-
-<a href="./docs">docs</a>
+{% include feature_row %}

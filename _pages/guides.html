@@ -1,0 +1,25 @@
+---
+title: Guides
+layout: collection
+permalink: /guides/
+collection: guides
+entries_layout: list
+classes: wide
+author_profile: true
+---
+
+{% capture written_label %}none{% endcapture %}
+
+{% for collection in site.collections %}
+  {% if collection.output and collection.label == "guides" %}
+    <!-- {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %} -->
+    
+    {% for guide in collection.guides %}
+      {% include guide-single.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
