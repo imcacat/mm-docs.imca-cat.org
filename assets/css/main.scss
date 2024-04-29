@@ -5,5 +5,5 @@ search: false
 
 @charset "utf-8";
 
-@import "imca-cat/skins/{{ site.imca_cat_skin | default: 'default' }}"; // skin
-@import "imca-cat"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

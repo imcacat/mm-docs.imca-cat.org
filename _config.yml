@@ -14,8 +14,8 @@ theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 # remote_theme           : "mmistakes/minimal-mistakes@4.25.0"
 
-#minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-imca_cat_skin            : "blue"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#imca_cat_skin            : "blue"
 
 # Site Settings
 locale                   : "en-US"
@@ -412,11 +412,11 @@ defaults:
 #  sass	3.7.4
 #  --
 #  For a history of dependency changes, see the past releases.
-#  
+#
 #  Programmatic access
 #  Want a more programmatic way to keep your local version of Jekyll up to date? All dependencies are bundled within the GitHub Pages Ruby gem, or are available programmatically via pages.github.com/versions.json
-#  
+#
 #  Last updated 2024-04-27 06am +0000.
-#  
+#
 #  Status API Training Shop Blog About
 #  © 2024 GitHub, Inc. Terms Privacy Security Contact
