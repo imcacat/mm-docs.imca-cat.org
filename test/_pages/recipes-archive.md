@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "Recipes"
+title: 'Recipes'
 collection: recipes
 permalink: /recipes-archive/
 author_profile: false

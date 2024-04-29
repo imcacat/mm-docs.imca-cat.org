@@ -1,5 +1,5 @@
 ---
-title: "Layout: Social Sharing Links Disabled"
+title: 'Layout: Social Sharing Links Disabled'
 share: false
 categories:
   - Layout

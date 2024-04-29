@@ -1,5 +1,5 @@
 ---
-title: "Edge Case: No Body Content"
+title: 'Edge Case: No Body Content'
 categories:
   - Edge Case
 tags:

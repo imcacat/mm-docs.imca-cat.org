@@ -1,5 +1,5 @@
 ---
-title: "Layout: Code Excerpt (Generated)"
+title: 'Layout: Code Excerpt (Generated)'
 categories:
   - Layout
   - Uncategorized

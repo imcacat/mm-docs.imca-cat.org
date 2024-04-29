@@ -1,5 +1,5 @@
 ---
-title: "Layout: Social Sharing Links Enabled"
+title: 'Layout: Social Sharing Links Enabled'
 share: true
 categories:
   - Layout

@@ -1,5 +1,5 @@
 ---
-title: "Layout: Related Posts Disabled"
+title: 'Layout: Related Posts Disabled'
 related: false
 categories:
   - Layout

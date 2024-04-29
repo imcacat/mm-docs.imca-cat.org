@@ -1,102 +1,63 @@
-# .prettierrc configuration for multi-language support with detailed compliance settings
----
-# Common settings
-printWidth: 100
-tabWidth: 4
-useTabs: false
-semi: true
-singleQuote: true
-trailingComma: "es5" # Updated to es5 for better compatibility in JS environments
-bracketSpacing: true
-jsxBracketSameLine: false
-arrowParens: "avoid"
-htmlWhitespaceSensitivity: "css" # Controls how HTML is parsed regarding whitespace
-quoteProps: "as-needed" # Change only if needed to maintain consistent property quoting in objects
-vueIndentScriptAndStyle: true # Specific to Vue files, but ensures indentation is respected in script and style tags
-
-# Override settings for specific languages
-overrides:
-  - files: "*.js", "*.ts"
-    options:
-      tabWidth: 2
-      useTabs: false
-      semi: true
-      trailingComma: "all" # Ensuring modern JavaScript practices
-
-  - files: "*.py"
-    options:
-      printWidth: 88 # PEP 8 recommendation
-      tabWidth: 4
-      useTabs: false
-
-  - files: "*.java"
-    options:
-      tabWidth: 4
-
-  - files: "*.cpp"
-    options:
-      tabWidth: 4
-
-  - files: "*.css", "*.scss"
-    options:
-      tabWidth: 2
-
-  - files: "*.sql"
-    options:
-      tabWidth: 2
-
-  - files: "*.sh"
-    options:
-      tabWidth: 2
-
-  - files: "*.rs"
-    options:
-      tabWidth: 4
-
-  - files: "*.groovy"
-    options:
-      tabWidth: 2
-
-  - files: "*.md"
-    options:
-      proseWrap: "preserve" # To comply with CommonMark, where prose is logically wrapped at the print width
-      tabWidth: 2
-
-  - files: "*.html"
-    options:
-      tabWidth: 2
-      printWidth: 120 # Allowing for a wider print width in HTML for better readability
-
-  - files: "*.yaml", "*.yml"
-    options:
-      tabWidth: 2
-
-  - files: "*.json"
-    options:
-      tabWidth: 2
-      printWidth: 80 # Smaller width for JSON to enhance readability in nested structures
-
-  - files: "*.adoc", "*.asciidoc"
-    options:
-      proseWrap: "preserve" # Preserve the original formatting as much as possible
-
-  - files: "*.rst"
-    options:
-      proseWrap: "preserve" # Preserve formatting to respect explicit line breaks
-
-  - files: "*.jinja", "*.jinja2"
-    options:
-      tabWidth: 2
-
-  - files: "*.php"
-    options:
-      tabWidth: 4 # Align with common PHP standards for tab width
-
-  - files: "*.xml"
-    options:
-      tabWidth: 2 # XML often contains nested structures similar to HTML
-
-# Additions for template and markdown files to ensure strict standards compliance
-  - files: "*.tmpl", "*.tpl"
-    options:
-      tabWidth: 2 # Templates usually benefit from smaller tab widths for readability
+{
+  "printWidth": 100,
+  "tabWidth": 4,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "css",
+  "quoteProps": "as-needed",
+  "vueIndentScriptAndStyle": true,
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "trailingComma": "all"
+      }
+    },
+    {
+      "files": ["*.py"],
+      "options": {
+        "printWidth": 88,
+        "tabWidth": 4,
+        "useTabs": false
+      }
+    },
+    {
+      "files": ["*.java", "*.cpp", "*.rs", "*.php", "*.xml"],
+      "options": {
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": ["*.css", "*.scss", "*.sql", "*.sh", "*.groovy", "*.md", "*.html", "*.yaml", "*.yml", "*.json", "*.jinja", "*.jinja2", "*.tmpl", "*.tpl"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.md", "*.adoc", "*.asciidoc", "*.rst"],
+      "options": {
+        "proseWrap": "preserve"
+      }
+    },
+    {
+      "files": ["*.html"],
+      "options": {
+        "printWidth": 120
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "printWidth": 80
+      }
+    }
+  ]
+}

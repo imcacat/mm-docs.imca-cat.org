@@ -1,5 +1,5 @@
 ---
-title: "Edge Case: Post with multiline excerpt"
+title: 'Edge Case: Post with multiline excerpt'
 ---
 
 Et ex ullamco duis don't

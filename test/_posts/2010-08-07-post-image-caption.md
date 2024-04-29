@@ -1,5 +1,5 @@
 ---
-title: "Post: Image (Caption)"
+title: 'Post: Image (Caption)'
 categories:
   - Post Formats
 tags:

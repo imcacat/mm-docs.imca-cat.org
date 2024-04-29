@@ -1,0 +1,30 @@
+# staff.yml
+members:
+  - name: Jane Doe
+    title: CEO
+    photo: /assets/images/staff/jane_doe.jpg
+    phone: "+1234567890"
+    email: jane.doe@example.com
+    social_media:
+      linkedin: jane-doe
+      twitter: janedoe
+
+  - name: John Smith
+    title: Chief Technical Officer
+    photo: /assets/images/staff/john_smith.jpg
+    phone: "+0987654321"
+    email: john.smith@example.com
+    social_media:
+      linkedin: john-smith
+      twitter: johnsmith
+
+  - name: Alice Johnson
+    title: Marketing Director
+    photo: /assets/images/staff/alice_johnson.jpg
+    phone: "+1122334455"
+    email: alice.johnson@example.com
+    social_media:
+      linkedin: alice-johnson
+      twitter: alicejohnson
+
+# Add more members as needed

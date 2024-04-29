@@ -1,5 +1,5 @@
 ---
-title: "Layout: Related Posts Enabled"
+title: 'Layout: Related Posts Enabled'
 related: true
 categories:
   - Layout

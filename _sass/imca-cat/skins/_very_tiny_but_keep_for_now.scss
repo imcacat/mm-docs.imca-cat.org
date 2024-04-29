@@ -1,0 +1,85 @@
+// Custom Styles for Minimal Mistakes Theme with New Dark Red Color Scheme
+
+// Base Colors and Fonts
+$background-color: #252a34; // Dark gray background color
+$base-font-family: 'Helvetica, Arial, sans-serif';
+$base-font-size: 14px;
+$base-font-color: #eaeaea; // Light gray text color for contrast
+$base-line-height: 1.5;
+
+// Header
+$header-background-color: $primary-color; // Original red color
+$header-text-color: $base-font-color;
+$header-link-color: $link-color; // Red mixed with light gray text color
+$header-link-hover-color: darken($link-color, 15%);
+
+// Navigation
+$navigation-background-color: $primary-color;
+$navigation-link-color: $base-font-color;
+$navigation-link-hover-color: darken($link-color, 15%);
+
+// Sidebar
+$sidebar-background-color: #333645; // Darkened version of the background color
+$sidebar-font-color: $base-font-color;
+$sidebar-active-item-color: $base-font-color;
+
+// Footer
+$footer-background-color: mix(#000, $background-color, 30%);
+$footer-text-color: $base-font-color;
+
+// Links
+$link-color: $link-color;
+$link-hover-color: $link-color-hover;
+$link-visited-color: $link-color-visited;
+
+// Headings
+$heading-font-family: $base-font-family;
+$heading-font-color: $base-font-color;
+$h1-font-size: 24px;
+$h2-font-size: 20px;
+$h3-font-size: 18px;
+
+// Code Blocks
+$code-font-family: 'Monaco, monospace';
+$code-font-size: 12px;
+$code-background-color: $code-background-color; // Dark mix for code backgrounds
+$code-text-color: $base-font-color;
+$code-border-color: $border-color; // Mixed white and background
+
+// Tables
+$table-header-bg-color: $link-color;
+$table-header-text-color: $base-font-color;
+$table-body-bg-color: $background-color;
+$table-body-text-color: $base-font-color;
+$table-grid-color: darken($border-color, 15%);
+
+// Admonitions
+$admonition-title-color: $link-color;
+$admonition-title-bg-color: $code-background-color-dark; // Darker code background
+$admonition-border-color: $border-color;
+$admonition-background-color: $code-background-color;
+$admonition-body-font-color: $base-font-color;
+
+// Gallery
+$gallery-item-bg-color: $background-color;
+$gallery-item-text-color: $link-color;
+$gallery-item-border-color: $border-color;
+
+// Search
+$search-background-color: $form-background-color;
+$search-text-color: $base-font-color;
+$search-highlight-color: $link-color;
+
+// Importing the variables and applying them
+@import 'minimal-mistakes'; // Make sure the path is correct based on your Jekyll structure
+
+// Apply custom styles based on variables
+body {
+    background-color: $background-color;
+    color: $base-font-color;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+// Additional customization based on your needs can follow here

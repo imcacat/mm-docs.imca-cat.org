@@ -1,48 +1,48 @@
 /* Blue Color Components */
 .logo-blue {
-    color: #285EE7; /* Original blue color */
+  color: #285ee7; /* Original blue color */
 }
 
 .logo-blue-complementary {
-    color: #E7B128; /* Complementary color */
+  color: #e7b128; /* Complementary color */
 }
 
 .logo-blue-monochromatic {
-    color: #1648C6; /* Monochromatic color */
+  color: #1648c6; /* Monochromatic color */
 }
 
 .logo-blue-analogous-original {
-    color: #5228E7; /* First analogous color */
+  color: #5228e7; /* First analogous color */
 }
 
 .logo-blue-analogous-second {
-    color: #28BEE7; /* Second analogous color */
+  color: #28bee7; /* Second analogous color */
 }
 
 .logo-blue-triadic-original {
-    color: #285EE7; /* Original triadic color */
+  color: #285ee7; /* Original triadic color */
 }
 
 .logo-blue-triadic-second {
-    color: #E7285E; /* Second triadic color */
+  color: #e7285e; /* Second triadic color */
 }
 
 .logo-blue-triadic-third {
-    color: #5EE728; /* Third triadic color */
+  color: #5ee728; /* Third triadic color */
 }
 
 .logo-blue-tetradic-original {
-    color: #285EE7; /* Original tetradic color */
+  color: #285ee7; /* Original tetradic color */
 }
 
 .logo-blue-tetradic-second {
-    color: #E728BD; /* Second tetradic color */
+  color: #e728bd; /* Second tetradic color */
 }
 
 .logo-blue-tetradic-third {
-    color: #E7B128; /* Third tetradic color */
+  color: #e7b128; /* Third tetradic color */
 }
 
 .logo-blue-tetradic-fourth {
-    color: #28E752; /* Fourth tetradic color */
+  color: #28e752; /* Fourth tetradic color */
 }

@@ -1,75 +1,174 @@
 /* ==========================================================================
-   Blue Skin - Light Theme
+   Variables - Light Blue Theme
    ========================================================================== */
 
-/* Colors */
-$base-font-color: #333333 !default; /* Standard dark grey for text in light themes */
-$h1-font-color: #285EE7 !default; /* Primary blue color for main headings */
-$h2-font-color: #1D47C5 !default; /* Slightly darker blue for secondary headings */
-$h3-font-color: #1648C6 !default; /* Even darker blue for tertiary headings */
-$link-font-color: #3A6EF4 !default; /* Lighter blue for hyperlinks */
-$sidebar-font-color: $base-font-color !default; /* Uses the base font color */
-$footer-background-color: #FFFFFF !default; /* White background for footer */
-$footer-font-color: #285EE7 !default; /* Blue font color for footer text */
-$header-background-color: #FFFFFF !default; /* White background for header */
-$header-font-color: #285EE7 !default; /* Blue font color for header text */
-$code-background-color: #F2F2FF !default; /* Very light blue, suitable for code blocks */
-$code-border-color: #285EE7 !default;
-$table-header-bg-color: #285EE7 !default;
-$table-grid-color: #1648C6 !default; /* Dark blue for table grids */
-$admonition-border-color: #285EE7 !default;
-$admonition-background-color: #E6EEFF !default; /* Very light blue for admonitions */
+/*
+   Typography
+   ========================================================================== */
 
-/* Typography */
-.page {
-  size: letter;
-  font-size: 10px;
-  color: $base-font-color;
-}
+   $doc-font-size: 16 !default;
 
-h1 {
-  color: $h1-font-color;
-}
-
-h2 {
-  color: $h2-font-color;
-}
-
-h3 {
-  color: $h3-font-color;
-}
-
-a {
-  color: $link-font-color;
-}
-
-.sidebar {
-  color: $sidebar-font-color;
-}
-
-.page__footer {
-  background-color: $footer-background-color;
-  color: $footer-font-color;
-}
-
-.header {
-  background-color: $header-background-color;
-  color: $header-font-color;
-}
-
-code {
-  background-color: $code-background-color;
-  border-color: $code-border-color;
-}
-
-table {
-  thead {
-    background-color: $table-header-bg-color;
-  }
-  border-color: $table-grid-color;
-}
-
-.admonition {
-  border-color: $admonition-border-color;
-  background-color: $admonition-background-color;
-}
+   /* paragraph indention */
+   $paragraph-indent: false !default; // true, false (default)
+   $indent-var: 1.3em !default;
+   
+   /* system typefaces */
+   $serif: Georgia, Times, serif !default;
+   $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+     "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+   $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+   
+   /* sans serif typefaces */
+   $sans-serif-narrow: $sans-serif !default;
+   $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+   
+   /* serif typefaces */
+   $georgia: Georgia, serif !default;
+   $times: Times, serif !default;
+   $bodoni: "Bodoni MT", serif !default;
+   $calisto: "Calisto MT", serif !default;
+   $garamond: Garamond, serif !default;
+   
+   $global-font-family: $sans-serif !default;
+   $header-font-family: $sans-serif !default;
+   $caption-font-family: $serif !default;
+   
+   /* type scale */
+   $type-size-1: 2.441em !default; // ~39.056px
+   $type-size-2: 1.953em !default; // ~31.248px
+   $type-size-3: 1.563em !default; // ~25.008px
+   $type-size-4: 1.25em !default; // ~20px
+   $type-size-5: 1em !default; // ~16px
+   $type-size-6: 0.75em !default; // ~12px
+   $type-size-7: 0.6875em !default; // ~11px
+   $type-size-8: 0.625em !default; // ~10px
+   
+   /* headline scale */
+   $h-size-1: 1.563em !default; // ~25.008px
+   $h-size-2: 1.25em !default; // ~20px
+   $h-size-3: 1.125em !default; // ~18px
+   $h-size-4: 1.0625em !default; // ~17px
+   $h-size-5: 1.03125em !default; // ~16.5px
+   $h-size-6: 1em !default; // ~16px
+   
+   /*
+      Colors
+      ========================================================================== */
+   
+   $gray: #7a8288 !default;
+   $dark-gray: mix(#000, $gray, 50%) !default;
+   $darker-gray: mix(#000, $gray, 60%) !default;
+   $light-gray: mix(#fff, $gray, 50%) !default;
+   $lighter-gray: mix(#fff, $gray, 90%) !default;
+   
+   $background-color: #f0f8ff !default; // Very light blue for a light theme
+   $code-background-color: #f7fbff !default;
+   $code-background-color-dark: $light-gray !default;
+   $text-color: #2f4f4f !default; // Dark slate gray for better readability on light background
+   $muted-text-color: mix(#fff, $text-color, 20%) !default;
+   $border-color: #b0c4de !default; // Light steel blue
+   $form-background-color: #b0e0e6 !default; // Powder blue
+   $footer-background-color: #b0c4de !default;
+   
+   $primary-color: #285EE7 !default; // Main primary blue
+   $success-color: #afeeee !default; // Pale turquoise for a light variant of success
+   $warning-color: #faebd7 !default; // Antique white for light warning
+   $danger-color: #ffcccc !default; // Light coral for danger
+   $info-color: #add8e6 !default; // Light blue for info
+   $focus-color: $primary-color !default;
+   $active-color: mix(#fff, $primary-color, 80%) !default;
+   
+   /* YIQ color contrast */
+   $yiq-contrasted-dark-default: $dark-gray !default;
+   $yiq-contrasted-light-default: #fff !default;
+   $yiq-contrasted-threshold: 175 !default;
+   $yiq-debug: false !default;
+   
+   /* brands */
+   $behance-color: #6495ed !default; // Cornflower blue
+   $bitbucket-color: #87cefa !default; // Light sky blue
+   $dribbble-color: #ffb6c1 !default; // Light pink
+   $facebook-color: #b0e0e6 !default; // Powder blue
+   $flickr-color: #afeeee !default; // Pale turquoise
+   $foursquare-color: #add8e6 !default; // Light blue
+   $github-color: #f0f8ff !default; // Alice blue
+   $gitlab-color: #ffc0cb !default; // Pink
+   $instagram-color: #87ceeb !default; // Sky blue
+   $keybase-color: #4682b4 !default; // Steel blue
+   $lastfm-color: #b0c4de !default; // Light steel blue
+   $linkedin-color: #6495ed !default; // Cornflower blue
+   $mastodon-color: #87cefa !default; // Light sky blue
+   $pinterest-color: #ff69b4 !default; // Hot pink
+   $reddit-color: #ffa07a !default; // Light salmon
+   $rss-color: #fa8072 !default; // Salmon
+   $soundcloud-color: #ffb6c1 !default; // Light pink
+   $stackoverflow-color: #f08080 !default; // Light coral
+   $tumblr-color: #afeeee !default; // Pale turquoise
+   $twitter-color: #00bfff !default; // Deep sky blue
+   $vimeo-color: #87ceeb !default; // Sky blue
+   $vine-color: #32cd32 !default; // Lime green
+   $youtube-color: #ff6347 !default; // Tomato
+   $xing-color: #20b2aa !default; // Light sea green
+   
+   /* links */
+   $link-color: mix(#000, $info-color, 20%) !default;
+   $link-color-hover: mix(#000, $link-color, 25%) !default;
+   $link-color-visited: mix(#fff, $link-color, 15%) !default;
+   $masthead-link-color: $primary-color !default;
+   $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+   $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
+   
+   /* notices */
+   $notice-background-mix: 80% !default;
+   $code-notice-background-mix: 90% !default;
+   
+   /* syntax highlighting (base16) */
+   $base00: #ffffff !default;
+   $base01: #f0f8ff !default;
+   $base02: #f5f5f5 !default;
+   $base03: #d3d3d3 !default;
+   $base04: #b0c4de !default;
+   $base05: #a9a9a9 !default;
+   $base06: #add8e6 !default;
+   $base07: #778899 !default;
+   $base08: #285EE7 !default;
+   $base09: #4682b4 !default;
+   $base0a: #6495ed !default;
+   $base0b: #00bfff !default;
+   $base0c: #87cefa !default;
+   $base0d: #b0e0e6 !default;
+   $base0e: #add8e6 !default;
+   $base0f: #b0c4de !default;
+   
+   /*
+      Breakpoints
+      ========================================================================== */
+   
+   $small: 600px !default;
+   $medium: 768px !default;
+   $medium-wide: 900px !default;
+   $large: 1024px !default;
+   $x-large: 1280px !default;
+   $max-width: $x-large !default;
+   
+   /*
+      Grid
+      ========================================================================== */
+   
+   $right-sidebar-width-narrow: 200px !default;
+   $right-sidebar-width: 300px !default;
+   $right-sidebar-width-wide: 400px !default;
+   
+   /*
+      Other
+      ========================================================================== */
+   
+   $border-radius: 4px !default;
+   $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+   $nav-height: 2em !default;
+   $nav-toggle-height: 2rem !default;
+   $navicon-width: 1.5rem !default;
+   $navicon-height: 0.25rem !default;
+   $global-transition: all 0.2s ease-in-out !default;
+   $intro-transition: intro 0.3s both !default;
+   

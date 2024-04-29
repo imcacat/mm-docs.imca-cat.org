@@ -1,5 +1,5 @@
 ---
-title: "Markup: Text Alignment"
+title: 'Markup: Text Alignment'
 categories:
   - Markup
 tags:

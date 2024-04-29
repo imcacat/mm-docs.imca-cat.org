@@ -1,5 +1,5 @@
 ---
-title: "Layout: Comments Enabled"
+title: 'Layout: Comments Enabled'
 comments: true
 categories:
   - Layout

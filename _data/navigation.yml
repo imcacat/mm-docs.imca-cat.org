@@ -2,17 +2,14 @@
 main:
   - title: "Guides"
     url: /guides/
-  - title: "ISpyB"
-    url: https://ispyb.imca-cat.org
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
   - title: "About"
     url: /about/
-  - title: "mmistakes docs"
+  - title: "ISpyB"
+    url: https://ispyb.imca-cat.org
+  - title: "mmistakes"
+    description: "Official Docs"
     url: /docs/
   # - title: "Categories"
   #   url: /categories/

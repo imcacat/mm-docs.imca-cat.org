@@ -1,5 +1,5 @@
 ---
-title: "Post: Twitter Embed"
+title: 'Post: Twitter Embed'
 categories:
   - Media
 tags:

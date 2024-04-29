@@ -1,12 +1,12 @@
 ---
-title: "Layout: Sidebar Custom"
-excerpt: "A post with custom sidebar content."
+title: 'Layout: Sidebar Custom'
+excerpt: 'A post with custom sidebar content.'
 author_profile: false
 sidebar:
-  - title: "Title"
+  - title: 'Title'
     image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
+    image_alt: 'image'
+    text: 'Some text here.'
     nav: sidebar-sample
   - title: Another sidebar nav
     nav: sidebar-sample
@@ -18,10 +18,10 @@ An example of how that YAML could look is:
 
 ```yaml
 sidebar:
-  - title: "Title"
+  - title: 'Title'
     image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
+    image_alt: 'image'
+    text: 'Some text here.'
+  - title: 'Another Title'
+    text: 'More text here.'
 ```

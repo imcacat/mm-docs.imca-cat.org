@@ -15,7 +15,7 @@ theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes@4.25.0"
 
 #minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-imca_cat_skin            : "blue.light"
+imca_cat_skin            : "blue"
 
 # Site Settings
 locale                   : "en-US"
@@ -29,11 +29,18 @@ url                      : "https://docs.imca-cat.org" # the base hostname & pro
 repository               : "imcacat/docs.imca-cat.org" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logos/imca-cat-logo-72ppi-500x500.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# logo                     : "/assets/images/beamline/gonio-72.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
+
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:path/
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -115,7 +122,8 @@ analytics:
 # Site Author
 author:
   name             : "Friendly Neighborhood Crystallographers"
-  avatar           : "assets/images/logos/imca-cat-logo-72ppi-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # avatar           : "assets/images/logos/imca-cat-logo-72ppi-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/beamline/gonio-72.png"
   bio              : >+
    "IMCA-CAT aims to accelerate drug discovery research by developing and operating a state-of-the-art,
    industry-funded structural biology synchrotron beamline optimized for high-throughput macromolecular
@@ -170,6 +178,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _guides
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -195,8 +204,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  # - /docs # ignore Minimal Mistakes /docs
-  # - /test # ignore Minimal Mistakes /test
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -242,7 +251,7 @@ plugins:
   - jekyll_asciidoctor_pdf
   - jekyll-archives
   - jekyll-asciidoc
-  - jekyll-asciimath
+  # - jekyll-asciimath
   - jekyll-asciinema
   - jekyll-feed
   - jekyll-gist
@@ -314,8 +323,30 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/posts"
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _docs
+  - scope:
+      path: "/docs"
+      type: docs
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _guides
+  - scope:
+      path: "/guides"
+      type: guides
     values:
       layout: single
       author_profile: true

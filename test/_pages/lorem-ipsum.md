@@ -1,5 +1,5 @@
 ---
-title: "Lorem Ipsum"
+title: 'Lorem Ipsum'
 permalink: /lorem-ipsum/
 ---
 

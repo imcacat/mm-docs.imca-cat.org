@@ -1,5 +1,5 @@
 ---
-title: "Layout: More Tag"
+title: 'Layout: More Tag'
 excerpt_separator: <!--more-->
 categories:
   - Layout

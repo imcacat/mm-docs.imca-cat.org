@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Variables - Triadic Red Dark Theme
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+   $doc-font-size: 16px !default;
+
+   /* paragraph indentation */
+   $paragraph-indent: false !default;
+   $indent-var: 1.3em !default;
+   
+   /* typefaces */
+   $serif: Georgia, Times, serif !default;
+   $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+                "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+   $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+   
+   $global-font-family: $sans-serif !default;
+   $header-font-family: $sans-serif !default;
+   $caption-font-family: $serif !default;
+   
+   /* type scale */
+   $type-size-1: 2.441em !default;
+   $type-size-2: 1.953em !default;
+   $type-size-3: 1.563em !default;
+   $type-size-4: 1.25em !default;
+   $type-size-5: 1em !default;
+   $type-size-6: 0.75em !default;
+   $type-size-7: 0.6875em !default;
+   $type-size-8: 0.625em !default;
+   
+   /*
+      Colors - Dark Theme
+      ========================================================================== */
+   
+   $primary-color: #EA332C !default;  // Bright red
+   $h1-color: #EA332C !default;       // Same as base for consistency
+   $h2-color: #2CEA33 !default;       // Green for secondary headings
+   $h3-color: #332CEA !default;       // Blue for tertiary headings
+   $link-color: #2CEA33 !default;     // Green for links
+   $sidebar-color: #332CEA !default;  // Blue for sidebar
+   $footer-bg-color: #262626 !default; // Dark background for footer
+   $footer-text-color: #FFFFFF !default;  // White for readability
+   $header-bg-color: #262626 !default; // Dark background for header
+   $header-text-color: #FFFFFF !default;  // White for readability
+   $code-bg-color: #333333 !default;      // Dark grey for code blocks
+   $code-border-color: #332CEA !default;  // Blue for borders
+   $table-header-bg-color: #EA332C !default;
+   $table-grid-color: #332CEA !default;   // Blue for table grids
+   $admonition-border-color: #332CEA !default;
+   $admonition-bg-color: #424242 !default;  // Dark grey for admonitions
+   
+   /* Additional setup for easy readability and aesthetic integration */
+   
+   $body-bg-color: #262626 !default; // Very dark background for body
+   $body-text-color: #E6E6E6 !default; // Light grey for text for readability
+   
+   .page {
+     background-color: $body-bg-color;
+     color: $body-text-color;
+     font-family: $global-font-family;
+     font-size: $doc-font-size;
+   }
+   
+   h1 {
+     color: $h1-color;
+   }
+   
+   h2 {
+     color: $h2-color;
+   }
+   
+   h3 {
+     color: $h3-color;
+   }
+   
+   a {
+     color: $link-color;
+   }
+   
+   .sidebar {
+     color: $sidebar-color;
+   }
+   
+   .page__footer {
+     background-color: $footer-bg-color;
+     color: $footer-text-color;
+   }
+   
+   .header {
+     background-color: $header-bg-color;
+     color: $header-text-color;
+   }
+   
+   code {
+     background-color: $code-bg-color;
+     border-color: $code-border-color;
+   }
+   
+   table {
+     thead {
+       background-color: $table-header-bg-color;
+     }
+     border-color: $table-grid-color;
+   }
+   
+   .admonition {
+     border-color: $admonition-border-color;
+     background-color: $admonition-bg-color;
+   }
+   

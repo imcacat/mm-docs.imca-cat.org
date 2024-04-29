@@ -1,40 +1,49 @@
 /* Original Theme for Web - colors.blue.original.css */
 body {
-    color: #333333; /* Standard dark grey for text */
-    background-color: #FFFFFF; /* White background for a clean look */
+  color: #333333; /* Standard dark grey for text */
+  background-color: #ffffff; /* White background for a clean look */
 }
 
-h1, h2, h3 {
-    color: #285EE7; /* Original blue color for headings */
+h1,
+h2,
+h3 {
+  color: #285ee7; /* Original blue color for headings */
 }
 
-h1 { font-size: 2.34em; }
-h2 { font-size: 1.94em; }
-h3 { font-size: 1.53em; }
+h1 {
+  font-size: 2.34em;
+}
+h2 {
+  font-size: 1.94em;
+}
+h3 {
+  font-size: 1.53em;
+}
 
 a {
-    color: #285EE7; /* Original blue for hyperlinks */
+  color: #285ee7; /* Original blue for hyperlinks */
 }
 
 .sidebar {
-    color: #333333; /* Dark grey for sidebar text */
+  color: #333333; /* Dark grey for sidebar text */
 }
 
-.footer, .header {
-    background-color: #FFFFFF; /* White background */
-    color: #285EE7; /* Blue text */
+.footer,
+.header {
+  background-color: #ffffff; /* White background */
+  color: #285ee7; /* Blue text */
 }
 
 code {
-    background-color: #F2F2FF; /* Very light blue for code blocks */
-    border-color: #285EE7; /* Blue border */
+  background-color: #f2f2ff; /* Very light blue for code blocks */
+  border-color: #285ee7; /* Blue border */
 }
 
 table {
-    border-color: #1648C6; /* Darker blue for table grids */
+  border-color: #1648c6; /* Darker blue for table grids */
 }
 
 .admonition {
-    border-color: #285EE7;
-    background-color: #E6EEFF; /* Very light blue for admonitions */
+  border-color: #285ee7;
+  background-color: #e6eeff; /* Very light blue for admonitions */
 }

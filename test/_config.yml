@@ -91,8 +91,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "/assets/images/bio-photo.jpg"
+  name             : "IMCA-CAT"
+  avatar           : "/assets/images/beamline/gonio-72.png"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   links:

@@ -1,5 +1,5 @@
 ---
-title: "Edge Case: Many Tags"
+title: 'Edge Case: Many Tags'
 categories:
   - Edge Case
 tags:

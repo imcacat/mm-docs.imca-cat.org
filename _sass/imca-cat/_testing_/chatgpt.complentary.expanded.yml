@@ -1,0 +1,62 @@
+# Expanded Complementary Theme Configuration for Blue (colors.blue.complementary.yml)
+extends:
+  default
+page:
+  size: Letter
+  background_color: '#FFFFFF'  # Typical background color
+base:
+  font_family: 'Helvetica, Arial, sans-serif'
+  font_size: 10
+  font_color: '#FFA500'  # Complementary color for blue
+  line_height: 1.5
+heading:
+  h1_font_color: '#FFA500'
+  h1_font_size: 24px
+  h2_font_color: '#FFA500'
+  h2_font_size: 20px
+  h3_font_color: '#FFA500'
+  h3_font_size: 18px
+link:
+  font_color: '#FFA500'
+  hover_color: '#E59400'  # Darker shade of complementary blue
+sidebar:
+  font_color: '#FFA500'
+  background_color: '#F2F2F2'  # Light grey for contrast
+  active_item_color: '#FFFFFF'  # White for active items
+footer:
+  background_color: '#FFA500'
+  font_color: '#FFFFFF'  # White for readability
+header:
+  background_color: '#FFA500'
+  font_color: '#FFFFFF'  # White for readability
+navigation:
+  background_color: '#FFA500'
+  link_color: '#FFFFFF'
+  link_hover_color: '#E59400'
+code:
+  font_family: 'Monaco, monospace'
+  font_size: 12px
+  background_color: '#FFF5E5'  # Very light complementary blue
+  font_color: '#333333'
+  border_color: '#FFA500'
+table:
+  font_size: 14px
+  header_bg_color: '#FFA500'
+  header_font_color: '#FFFFFF'
+  body_bg_color: '#FFFFFF'
+  body_font_color: '#333333'
+  grid_color: '#E59400'
+admonition:
+  title_color: '#FFA500'
+  title_bg_color: '#FFF5E5'
+  border_color: '#FFA500'
+  background_color: '#FFF5E5'
+  body_font_color: '#333333'
+gallery:
+  item_bg_color: '#FFFFFF'
+  item_text_color: '#FFA500'
+  item_border_color: '#FFA500'
+search:
+  background_color: '#FFF5E5'
+  text_color: '#333333'
+  highlight_color: '#FFA500'

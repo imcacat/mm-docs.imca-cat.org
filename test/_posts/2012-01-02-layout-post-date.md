@@ -1,5 +1,5 @@
 ---
-title: "Layout: Post Date Enabled"
+title: 'Layout: Post Date Enabled'
 show_date: true
 tags:
   - post date

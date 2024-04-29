@@ -33,7 +33,6 @@ group :jekyll_plugins do
   gem "jekyll-avatar"
   gem "jekyll-archives"
   gem "jekyll-asciidoc"
-  gem "jekyll-asciimath"
   gem "jekyll-asciinema"
   gem "jekyll_asciidoctor_pdf"
   gem "jekyll-toc"
@@ -43,7 +42,6 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-gist"
   gem "jekyll-github-metadata"
-  gem "jekyll-include-cache"
   gem "jekyll-optional-front-matter"
   gem "jekyll-seo-tag"
 end

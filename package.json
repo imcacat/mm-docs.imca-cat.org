@@ -1,58 +1,59 @@
 {
-  "name": "docs.imca-cat.org",
-  "version": "0.0.1",
-  "description": "Fork of Minimal Mistakes: now tailored for comprehensive documentation projects. Originally a robust 2-column Jekyll theme, this version expands its capabilities to better serve as a documentation tool.",
-  "main": "index.js",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/imcacat/docs.imca-cat.org.git"
-  },
-  "mercurialRepository": {
-    "type": "hg",
-    "url": "https://heptapod.host/imca-cat/documentation/docs.imca-cat.org"
-  },
-  "scripts": {
-    "build": "npm run build:js && jekyll build",
-    "build:js": "uglifyjs assets/js/* -o assets/js/main.min.js --compress --mangle",
-    "test": "echo 'Run your tests here'",
-    "lint": "eslint assets/js/",
-    "format": "prettier --write '**/*.{js,css,md,html}'",
-    "clean": "rimraf _site assets/js/main.min.js",
-    "serve": "jekyll serve",
-    "predeploy": "npm run build",
-    "deploy": "npm run deploy:rhos",
-    "deploy:rhos": "scripts/deploy_to_rhos.sh",
-    "containerize": "docker build -t docs-imca-cat . && docker push docs-imca-cat",
-    "ci:build": "npm run lint && npm run test && npm run clean && npm run build",
-    "ci:deploy": "npm run containerize && npm run deploy",
-    "postmerge": "npm install",
-    "push-git": "git push origin master",
-    "push-hg": "hg push",
-    "push-all": "npm run push-git && npm run push-hg"
-  },
-  "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.0.0"
-  },
-  "devDependencies": {
-    "uglify-js": "^3.13.6",
-    "eslint": "^7.32.0",
-    "prettier": "^2.3.2",
-    "rimraf": "^3.0.2",
-    "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0"
-  },
-  "contributors": [
-    {
-      "name": "Jason Gochanour",
-      "email": "jrgochan@imca-cat.org",
-      "url": "https://jrgochan.github.io"
-    }
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/imcacat/docs.imca-cat.org/issues"
-  },
-  "homepage": "https://imca-cat.org/"
+    "name": "docs.imca-cat.org",
+    "version": "0.0.1",
+    "description": "Fork of Minimal Mistakes: now tailored for comprehensive documentation projects. Originally a robust 2-column Jekyll theme, this version expands its capabilities to better serve as a documentation tool.",
+    "main": "index.js",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imcacat/docs.imca-cat.org.git"
+    },
+    "mercurialRepository": {
+        "type": "hg",
+        "url": "https://heptapod.host/imca-cat/documentation/docs.imca-cat.org"
+    },
+    "scripts": {
+        "build": "npm run build:js && jekyll build",
+        "build:js": "uglifyjs assets/js/* -o assets/js/main.min.js --compress --mangle",
+        "test": "echo 'Run your tests here'",
+        "lint": "npx eslint assets/js/",
+        "superlint": "npx eslint --config .eslintrc.js --format stylish --fix --report-unused-disable-directives assets/js/",
+        "format": "prettier --write '**/*.{js,css,md,html}'",
+        "clean": "rimraf _site assets/js/main.min.js",
+        "serve": "jekyll serve",
+        "predeploy": "npm run build",
+        "deploy": "npm run deploy:rhos",
+        "deploy:rhos": "scripts/deploy_to_rhos.sh",
+        "containerize": "docker build -t docs-imca-cat . && docker push docs-imca-cat",
+        "ci:build": "npm run lint && npm run test && npm run clean && npm run build",
+        "ci:deploy": "npm run containerize && npm run deploy",
+        "postmerge": "npm install",
+        "push-git": "git push origin master",
+        "push-hg": "hg push",
+        "push-all": "npm run push-git && npm run push-hg"
+    },
+    "engines": {
+        "node": ">=12.0.0",
+        "npm": ">=6.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^9.1.1",
+        "npm-run-all": "^4.1.5",
+        "onchange": "^7.1.0",
+        "prettier": "^2.3.2",
+        "rimraf": "^3.0.2",
+        "uglify-js": "^3.13.6"
+    },
+    "contributors": [
+        {
+            "name": "Jason Gochanour",
+            "email": "jrgochan@imca-cat.org",
+            "url": "https://jrgochan.github.io"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/imcacat/docs.imca-cat.org/issues"
+    },
+    "homepage": "https://imca-cat.org/"
 }

@@ -1,5 +1,5 @@
 ---
-title: "Post: Teaser Image with OpenGraph Override"
+title: 'Post: Teaser Image with OpenGraph Override'
 header:
   teaser: /assets/images/page-header-teaser.png
   og_image: /assets/images/page-header-og-image.png

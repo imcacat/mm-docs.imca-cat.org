@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="-302 -12 1143 1131" width="1143" height="1131">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#707070">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" stroke-opacity="1" stroke="none" fill="none" stroke-dasharray="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="-302" y="-12" width="1143" height="1131"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_161">
+        <title>Software System</title>
+        <g id="Graphic_163">
+          <path d="M -300.7177 229.5 L 479.2823 229.5 L 479.2823 1074.5 L -300.7177 1074.5 Z" stroke="#464646" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+        </g>
+        <g id="Graphic_162">
+          <text transform="translate(-295.7177 1044.5)" fill="#464646">
+            <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#464646" x="0" y="11">Data Acquisition System</tspan>
+            <tspan font-family="Open Sans" font-size="8" fill="#464646" x="0" y="23">[Software System]</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_8">
+        <title>Person</title>
+        <g id="Graphic_13">
+          <path d="M 173.80433 54.5 L 289.80433 54.5 C 301.9546 54.5 311.80433 64.34974 311.80433 76.5 L 311.80433 127.5 C 311.80433 139.65027 301.9546 149.5 289.80433 149.5 L 173.80433 149.5 C 161.65407 149.5 151.80433 139.65027 151.80433 127.5 L 151.80433 76.5 C 151.80433 64.34974 161.65407 54.5 173.80433 54.5 Z" fill="#0a417c"/>
+        </g>
+        <g id="Line_12">
+          <line x1="187.80433" y1="96.5" x2="187.80433" y2="148.5" stroke="#093b70" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_11">
+          <line x1="276.80433" y1="96.5" x2="276.80433" y2="148.5" stroke="#093b70" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_10">
+          <title>Rectangle</title>
+          <path d="M 173.80433 54.5 L 289.80433 54.5 C 301.9546 54.5 311.80433 64.34974 311.80433 76.5 L 311.80433 127.5 C 311.80433 139.65027 301.9546 149.5 289.80433 149.5 L 173.80433 149.5 C 161.65407 149.5 151.80433 139.65027 151.80433 127.5 L 151.80433 76.5 C 151.80433 64.34974 161.65407 54.5 173.80433 54.5 Z" stroke="#093b70" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(156.80433 71.5)" fill="white">
+            <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="27.779785" y="14">Beamline User</tspan>
+            <tspan font-family="Open Sans" font-size="7" fill="white" x="61.26489" y="25">[Person]</tspan>
+            <tspan font-family="Open Sans" font-size="10" fill="white" x="9.663086" y="44">A user or staff member who </tspan>
+            <tspan font-family="Open Sans" font-size="10" fill="white" x="44.714355" y="58">collects data.</tspan>
+          </text>
+        </g>
+        <g id="Graphic_9">
+          <circle cx="232.30433" cy="25.000002" r="35.5000567255173" fill="#09427b"/>
+          <circle cx="232.30433" cy="25.000002" r="35.5000567255173" stroke="#093b70" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Graphic_14">
+        <title>Container</title>
+        <rect x="279.28236" y="469.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="279.28236" y="469.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(284.28236 506)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="63.98291" y="14">Imcais</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="36.35205" y="25">[Container: C, SNL, and EPICS]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="6.228027" y="44">Controls hardware to collect data.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <title>Container</title>
+        <rect x="279.28236" y="249.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="279.28236" y="249.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(284.28236 279)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="56.12134" y="14">JDirector</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="40.54419" y="25">[Container: Java and Swing]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="29.682617" y="44">Provides data collection </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="9.978027" y="58">functionality to a beamline user.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_35">
+        <title>Container</title>
+        <rect x="-.7176367" y="469.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="-.7176367" y="469.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(4.2823633 499)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="62.13257" y="14">Imcadr</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="58.19629" y="25">[Container: Java]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="16.328125" y="44">Provides diffraction centering </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="54.74365" y="58">functionality.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_36">
+        <title>Container</title>
+        <rect x="-.7176367" y="689.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="-.7176367" y="689.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(4.2823633 726)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="44.15283" y="14">Imcais2redis</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="56.55737" y="25">[Container: Ruby]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="11.010742" y="44">Provides Redis access to Imcais.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <title>Container</title>
+        <rect x="279.28236" y="689.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="279.28236" y="689.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(284.28236 726)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="44.870117" y="14">Imcaadeiger</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="26.116943" y="25">[Container: areaDetector and EPICS]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="3.3666992" y="44">Controls the EIGER2 X 9M detector.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_45">
+        <title>External Software System</title>
+        <rect x="659.2824" y="909.5" width="180" height="120" fill="#999"/>
+        <rect x="659.2824" y="909.5" width="180" height="120" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(664.2824 925)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="3.23584" y="14">DECTRIS Detector System</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="55.460205" y="25">[Software System]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="7.0703125" y="44">Provides the detector control API, </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="8.603516" y="58">image streaming service, dataset </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="8.474121" y="72">storage, and a management web </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="57.95166" y="86">application.</tspan>
+        </text>
+      </g>
+      <g id="Line_97">
+        <title>Relationship</title>
+        <line x1="263.93775" y1="150.5" x2="323.39918" y2="240.24704" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_98">
+        <rect x="244.5079" y="187.5" width="103.78906" height="24" fill="white"/>
+        <text transform="translate(249.5079 192.5)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Collects data using</tspan>
+        </text>
+      </g>
+      <g id="Line_107">
+        <title>Relationship</title>
+        <line x1="369.28236" y1="370.5" x2="369.28236" y2="458.6" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_106">
+        <rect x="319.4728" y="402" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(324.4728 407)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="37.04785" y="23">[Tcl]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_108">
+        <title>External Software System</title>
+        <rect x="659.2824" y="359.5" width="180" height="120" fill="#999"/>
+        <rect x="659.2824" y="359.5" width="180" height="120" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(664.2824 389)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="16.94043" y="14">ACTOR Robot System</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="55.460205" y="25">[Software System]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="11.882324" y="44">Provides the CameraMan robot </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x=".9863281" y="58">control API and desktop application.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_109">
+        <title>External Software System</title>
+        <rect x="659.2824" y="689.5" width="180" height="120" fill="#999"/>
+        <rect x="659.2824" y="689.5" width="180" height="120" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(664.2824 719)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="3.7404785" y="14">ALIO Goniometer System</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="55.460205" y="25">[Software System]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="8.129883" y="44">Provides the internal goniometer </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="58.24219" y="58">control API.</tspan>
+        </text>
+      </g>
+      <g id="Line_111">
+        <title>Relationship</title>
+        <line x1="291.646" y1="370.5" x2="174.70328" y2="462.38357" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_110">
+        <rect x="202.17055" y="407.5" width="54.22363" height="24" fill="white"/>
+        <text transform="translate(207.17055 412.5)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Executes</tspan>
+        </text>
+      </g>
+      <g id="Line_113">
+        <title>Relationship</title>
+        <line x1="460.28236" y1="335.8421" x2="648.7728" y2="390.4051" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_112">
+        <rect x="509.4728" y="347" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(514.4728 352)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="37.04785" y="23">[Tcl]</tspan>
+        </text>
+      </g>
+      <g id="Line_115">
+        <title>Relationship</title>
+        <line x1="658.2824" y1="445.8421" x2="469.79195" y2="500.4051" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_114">
+        <rect x="509.4728" y="457" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(514.4728 462)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="32.69629" y="23">[ASCII]</tspan>
+        </text>
+      </g>
+      <g id="Line_117">
+        <title>Relationship</title>
+        <line x1="291.646" y1="590.5" x2="174.70328" y2="682.3836" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_116">
+        <rect x="195.49058" y="609.4146" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(200.49058 614.4146)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="25.881836" y="23">[EPICS PV]</tspan>
+        </text>
+      </g>
+      <g id="Line_119">
+        <title>Relationship</title>
+        <line x1="460.28236" y1="582.1842" x2="649.71464" y2="691.8555" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_118">
+        <rect x="509.4728" y="622" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(514.4728 627)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="25.881836" y="23">[EPICS PV]</tspan>
+        </text>
+      </g>
+      <g id="Line_121">
+        <title>Relationship</title>
+        <line x1="369.28236" y1="590.5" x2="369.28236" y2="678.6" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_120">
+        <rect x="319.4728" y="636.67634" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(324.4728 641.67634)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="25.881836" y="23">[EPICS PV]</tspan>
+        </text>
+      </g>
+      <g id="Line_123">
+        <title>Relationship</title>
+        <line x1="180.28236" y1="559.83334" x2="648.8904" y2="716.036" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_122">
+        <rect x="509.12696" y="668.5514" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(514.12696 673.5514)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="25.881836" y="23">[EPICS PV]</tspan>
+        </text>
+      </g>
+      <g id="Line_125">
+        <title>Relationship</title>
+        <path d="M 89.28236 590.5 L 89.28236 661.918 L 207.28906 661.918 L 207.28906 749.5 L 268.38236 749.5" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_124">
+        <rect x="39.472793" y="608.5188" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(44.472793 613.5188)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="25.881836" y="23">[EPICS PV]</tspan>
+        </text>
+      </g>
+      <g id="Line_127">
+        <title>Relationship</title>
+        <line x1="11.646" y1="590.5" x2="-111.2971" y2="687.09815" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_126">
+        <rect x="-80.7326" y="623.7363" width="55.61035" height="35" fill="white"/>
+        <text transform="translate(-75.7326 628.7363)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Writes to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="10.871582" y="23">[RESP]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_129">
+        <title>Database Container</title>
+        <path d="M -280.71764 797.5 L -280.71764 701.5 C -280.71764 694.876 -240.39764 689.5 -190.71764 689.5 C -141.03764 689.5 -100.71764 694.876 -100.71764 701.5 L -100.71764 797.5 C -100.71764 804.124 -141.03764 809.5 -190.71764 809.5 C -240.39764 809.5 -280.71764 804.124 -280.71764 797.5" fill="#438dd5"/>
+        <path d="M -280.71764 797.5 L -280.71764 701.5 C -280.71764 694.876 -240.39764 689.5 -190.71764 689.5 C -141.03764 689.5 -100.71764 694.876 -100.71764 701.5 L -100.71764 797.5 C -100.71764 804.124 -141.03764 809.5 -190.71764 809.5 C -240.39764 809.5 -280.71764 804.124 -280.71764 797.5 M -280.71764 701.5 C -280.71764 708.124 -240.39764 713.5 -190.71764 713.5 C -141.03764 713.5 -100.71764 708.124 -100.71764 701.5" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-275.71764 718)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="54.4043" y="14">Database</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="55.950684" y="25">[Container: Redis]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="5.2734375" y="44">Stores information about datasets </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="1.7016602" y="58">to be collected, and provides a pub/</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="18.83545" y="72">sub channel for collect-start.</tspan>
+        </text>
+      </g>
+      <g id="Line_131">
+        <title>Relationship</title>
+        <line x1="-1.7176367" y1="749.5" x2="-89.81764" y2="749.5" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_130">
+        <rect x="-77.93029" y="732" width="55.61035" height="35" fill="white"/>
+        <text transform="translate(-72.93029 737)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Writes to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="10.871582" y="23">[RESP]</tspan>
+        </text>
+      </g>
+      <g id="Line_133">
+        <title>Relationship</title>
+        <line x1="460.28236" y1="802.1842" x2="649.71464" y2="911.8555" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_132">
+        <rect x="508.27565" y="841.3069" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(513.27565 846.3069)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="21.52832" y="23">[JSON/HTTP]</tspan>
+        </text>
+      </g>
+      <g id="Line_135">
+        <title>Relationship</title>
+        <line x1="460.28236" y1="969.5" x2="648.3824" y2="969.5" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_134">
+        <rect x="512.5852" y="945" width="91" height="49" fill="white"/>
+        <text transform="translate(517.5852 950)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="5.2924805" y="11">Reads dataset </tspan>
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="6.693848" y="25">streams from</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x=".4472656" y="37">[JSON/HTTP/ZeroMQ]</tspan>
+        </text>
+      </g>
+      <g id="Line_142">
+        <title>Relationship</title>
+        <line x1="278.28236" y1="933.75" x2="-90.5032" y2="788.87" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_141">
+        <rect x="6.428647" y="842.8979" width="170.27832" height="35" fill="white"/>
+        <text transform="translate(11.428647 847.8979)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Reads dataset information from</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="68.20557" y="23">[RESP]</tspan>
+        </text>
+      </g>
+      <g id="Line_144">
+        <title>Relationship</title>
+        <line x1="278.28236" y1="969.5" x2="-89.81764" y2="969.5" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_143">
+        <rect x="30.405697" y="957.5" width="122.32422" height="24" fill="white"/>
+        <text transform="translate(35.405697 962.5)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Writes CBF datasets to</tspan>
+        </text>
+      </g>
+      <g id="Graphic_41">
+        <title>Container</title>
+        <rect x="279.28236" y="909.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="279.28236" y="909.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(284.28236 939)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="7.14917" y="14">EIGER Stream Converter</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="53.26074" y="25">[Container: Python]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x=".14892578" y="44">Reads images from the detector and </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="33.75244" y="58">converts them to CBF.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_145">
+        <title>Database Container</title>
+        <path d="M -280.71764 1017.5 L -280.71764 921.5 C -280.71764 914.876 -240.39764 909.5 -190.71764 909.5 C -141.03764 909.5 -100.71764 914.876 -100.71764 921.5 L -100.71764 1017.5 C -100.71764 1024.124 -141.03764 1029.5 -190.71764 1029.5 C -240.39764 1029.5 -280.71764 1024.124 -280.71764 1017.5" fill="#438dd5"/>
+        <path d="M -280.71764 1017.5 L -280.71764 921.5 C -280.71764 914.876 -240.39764 909.5 -190.71764 909.5 C -141.03764 909.5 -100.71764 914.876 -100.71764 921.5 L -100.71764 1017.5 C -100.71764 1024.124 -141.03764 1029.5 -190.71764 1029.5 C -240.39764 1029.5 -280.71764 1024.124 -280.71764 1017.5 M -280.71764 921.5 C -280.71764 928.124 -240.39764 933.5 -190.71764 933.5 C -141.03764 933.5 -100.71764 928.124 -100.71764 921.5" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-275.71764 952)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="26.36035" y="14">/confidential-data</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="54.515137" y="25">[Container: Lustre]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="47.87842" y="44">Stores datasets.</tspan>
+        </text>
+      </g>
+      <g id="Graphic_146">
+        <title>Container</title>
+        <rect x="-280.71764" y="469.5" width="180" height="120" fill="#438dd5"/>
+        <rect x="-280.71764" y="469.5" width="180" height="120" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-275.71764 492)" fill="white">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x=".4555664" y="14">SynchWeb API Application</tspan>
+          <tspan font-family="Open Sans" font-size="7" fill="white" x="57.98096" y="25">[Container: PHP]</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="5.830078" y="44">Provides puck ID and robot dewar </tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="9.404297" y="58">location functionality via a JSON/</tspan>
+          <tspan font-family="Open Sans" font-size="10" fill="white" x="59.82666" y="72">HTTPS API.</tspan>
+        </text>
+      </g>
+      <g id="Line_148">
+        <title>Relationship</title>
+        <line x1="278.28236" y1="345.25" x2="-90.5032" y2="490.13004" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_147">
+        <rect x="39.472794" y="402" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(44.472794 407)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="10.477539" y="23">[JSON/HTTPS/SQL]</tspan>
+        </text>
+      </g>
+      <g id="Group_150">
+        <title>Mobile App Container</title>
+        <g id="Graphic_155">
+          <path d="M 7.282363 249.5 L 171.28236 249.5 C 175.70064 249.5 179.28236 253.08172 179.28236 257.5 L 179.28236 361.5 C 179.28236 365.9183 175.70064 369.5 171.28236 369.5 L 7.282363 369.5 C 2.8640853 369.5 -.7176367 365.9183 -.7176367 361.5 L -.7176367 257.5 C -.7176367 253.08172 2.8640853 249.5 7.282363 249.5 Z" fill="#3d80c0"/>
+          <path d="M 7.282363 249.5 L 171.28236 249.5 C 175.70064 249.5 179.28236 253.08172 179.28236 257.5 L 179.28236 361.5 C 179.28236 365.9183 175.70064 369.5 171.28236 369.5 L 7.282363 369.5 C 2.8640853 369.5 -.7176367 365.9183 -.7176367 361.5 L -.7176367 257.5 C -.7176367 253.08172 2.8640853 249.5 7.282363 249.5 Z" stroke="#3d7fc0" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        </g>
+        <g id="Graphic_154">
+          <path d="M 15.282363 253.5 L 163.28236 253.5 C 163.83465 253.5 164.28236 253.94772 164.28236 254.5 L 164.28236 364.5 C 164.28236 365.0523 163.83465 365.5 163.28236 365.5 L 15.282363 365.5 C 14.730079 365.5 14.282363 365.0523 14.282363 364.5 L 14.282363 254.5 C 14.282363 253.94772 14.730079 253.5 15.282363 253.5 Z" fill="#438dd5"/>
+          <path d="M 15.282363 253.5 L 163.28236 253.5 C 163.83465 253.5 164.28236 253.94772 164.28236 254.5 L 164.28236 364.5 C 164.28236 365.0523 163.83465 365.5 163.28236 365.5 L 15.282363 365.5 C 14.730079 365.5 14.282363 365.0523 14.282363 364.5 L 14.282363 254.5 C 14.282363 253.94772 14.730079 253.5 15.282363 253.5 Z" stroke="#438dd5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_153">
+          <circle cx="5.2823633" cy="309.5" r="4.0000063916076" fill="#438dd5"/>
+          <circle cx="5.2823633" cy="309.5" r="4.0000063916076" stroke="#438dd5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_152">
+          <path d="M 173.78236 299.5 L 173.78236 299.5 C 174.0585 299.5 174.28236 299.72386 174.28236 300 L 174.28236 319 C 174.28236 319.27614 174.0585 319.5 173.78236 319.5 L 173.78236 319.5 C 173.50622 319.5 173.28236 319.27614 173.28236 319 L 173.28236 300 C 173.28236 299.72386 173.50622 299.5 173.78236 299.5 Z" fill="#438dd5"/>
+        </g>
+        <g id="Graphic_151">
+          <text transform="translate(15.282363 272)" fill="white">
+            <tspan font-family="Open Sans" font-weight="bold" font-size="13" fill="white" x="10.272705" y="14">SynchWeb Web App</tspan>
+            <tspan font-family="Open Sans" font-size="7" fill="white" x="11.687012" y="25">[Container: HTML, CSS, and JavaScript]</tspan>
+            <tspan font-family="Open Sans" font-size="10" fill="white" x="10.708984" y="44">Provides puck ID and robot </tspan>
+            <tspan font-family="Open Sans" font-size="10" fill="white" x="3.248047" y="58">dewar location functionality to </tspan>
+            <tspan font-family="Open Sans" font-size="10" fill="white" x="36.95166" y="72">a staff member.</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_157">
+        <title>Relationship</title>
+        <line x1="16.736909" y1="366.5" x2="-105.29672" y2="462.38357" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_156">
+        <rect x="-97.98175" y="400" width="99.61914" height="35" fill="white"/>
+        <text transform="translate(-92.98175 405)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="0" y="11">Makes API calls to</tspan>
+          <tspan font-family="Open Sans" font-size="8" fill="#707070" x="19.333008" y="23">[JSON/HTTPS]</tspan>
+        </text>
+      </g>
+      <g id="Line_159">
+        <title>Relationship</title>
+        <line x1="198.49197" y1="150.5" x2="136.09858" y2="241.33952" marker-end="url(#FilledArrow_Marker)" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.0,9.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_158">
+        <rect x="89.18025" y="181" width="150.625" height="38" fill="white"/>
+        <text transform="translate(94.18025 186)" fill="#707070">
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x="7.827148" y="11">Manages pucks and their </tspan>
+          <tspan font-family="Open Sans" font-weight="bold" font-size="10" fill="#707070" x=".7470703" y="25">robot dewar locations using</tspan>
+        </text>
+      </g>
+      <g id="Group_178">
+        <title>Legend</title>
+        <g id="Group_188">
+          <title>Legend: Existing Software System</title>
+          <g id="Graphic_190">
+            <rect x="695.6154" y="1099" width="15" height="15" fill="#999"/>
+            <rect x="695.6154" y="1099" width="15" height="15" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_189">
+            <text transform="translate(715.6154 1099.5)" fill="black">
+              <tspan font-family="Open Sans" font-size="10" fill="black" x="0" y="11">External Software System</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_185">
+          <title>Legend: Software System</title>
+          <g id="Graphic_187">
+            <path d="M 577.798 1099 L 592.798 1099 L 592.798 1114 L 577.798 1114 Z" stroke="#464646" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,5.0" stroke-width="1"/>
+          </g>
+          <g id="Graphic_186">
+            <text transform="translate(597.798 1099.5)" fill="black">
+              <tspan font-family="Open Sans" font-size="10" fill="black" x="0" y="11">Software System</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_182">
+          <title>Legend: Container</title>
+          <g id="Graphic_184">
+            <rect x="491.8605" y="1099" width="15" height="15" fill="#438dd5"/>
+            <rect x="491.8605" y="1099" width="15" height="15" stroke="#3e84c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <g id="Graphic_183">
+            <text transform="translate(511.8605 1099.5)" fill="black">
+              <tspan font-family="Open Sans" font-size="10" fill="black" x="0" y="11">Container</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_179">
+          <title>Legend: Person</title>
+          <g id="Graphic_181">
+            <rect x="419.19936" y="1099" width="15" height="15" fill="#0a417c"/>
+            <rect x="419.19936" y="1099" width="15" height="15" stroke="#093b70" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_180">
+            <text transform="translate(439.19936 1099.5)" fill="black">
+              <tspan font-family="Open Sans" font-size="10" fill="black" x="0" y="11">Person</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Variables - Red Tetradic Dark Theme
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+   $doc-font-size: 16px !default;
+
+   /* paragraph indentation */
+   $paragraph-indent: false !default;
+   $indent-var: 1.3em !default;
+   
+   /* typefaces */
+   $serif: Georgia, Times, serif !default;
+   $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+                "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+   $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+   
+   $global-font-family: $sans-serif !default;
+   $header-font-family: $sans-serif !default;
+   $caption-font-family: $serif !default;
+   
+   /* type scale */
+   $type-size-1: 2.441em !default;
+   $type-size-2: 1.953em !default;
+   $type-size-3: 1.563em !default;
+   $type-size-4: 1.25em !default;
+   $type-size-5: 1em !default;
+   $type-size-6: 0.75em !default;
+   $type-size-7: 0.6875em !default;
+   $type-size-8: 0.625em !default;
+   
+   /*
+      Colors - Dark Theme
+      ========================================================================== */
+   
+   $primary-color: #EA332C !default;
+   $h1-color: #84EA2C !default;
+   $h2-color: #2CE3EA !default;
+   $h3-color: #922CEA !default;
+   $link-color: #84EA2C !default;
+   $sidebar-color: #922CEA !default;
+   $footer-bg-color: #282828 !default; // Dark background for footer
+   $footer-text-color: #84EA2C !default;
+   $header-bg-color: #282828 !default; // Dark background for header
+   $header-text-color: #84EA2C !default;
+   $code-bg-color: #333333 !default; // Darker gray for code blocks
+   $code-border-color: #2CE3EA !default;
+   $table-header-bg-color: #282828 !default;
+   $table-grid-color: #2CE3EA !default;
+   $admonition-border-color: #2CE3EA !default;
+   $admonition-bg-color: #424242 !default; // Dark gray for admonitions
+   
+   $body-bg-color: #1A1A2E !default; // Very dark blue for body background
+   $body-text-color: #E6E6E6 !default; // Light gray for text for readability
+   
+   .page {
+     background-color: $body-bg-color;
+     color: $body-text-color;
+     font-family: $global-font-family;
+     font-size: $doc-font-size;
+   }
+   
+   h1 {
+     color: $h1-color;
+   }
+   
+   h2 {
+     color: $h2-color;
+   }
+   
+   h3 {
+     color: $h3-color;
+   }
+   
+   a {
+     color: $link-color;
+   }
+   
+   .sidebar {
+     color: $sidebar-color;
+   }
+   
+   .page__footer {
+     background-color: $footer-bg-color;
+     color: $footer-text-color;
+   }
+   
+   .header {
+     background-color: $header-bg-color;
+     color: $header-text-color;
+   }
+   
+   code {
+     background-color: $code-bg-color;
+     border-color: $code-border-color;
+   }
+   
+   table {
+     thead {
+       background-color: $table-header-bg-color;
+     }
+     border-color: $table-grid-color;
+   }
+   
+   .admonition {
+     border-color: $admonition-border-color;
+     background-color: $admonition-bg-color;
+   }   

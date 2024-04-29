@@ -1,12 +1,12 @@
 ---
-title: "Post: Overlay Image with OpenGraph Override"
+title: 'Post: Overlay Image with OpenGraph Override'
 header:
   overlay_image: /assets/images/unsplash-image-1.jpg
   og_image: /assets/images/page-header-og-image.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: 'Photo credit: [**Unsplash**](https://unsplash.com)'
   actions:
-    - label: "Learn More"
-      url: "https://unsplash.com"
+    - label: 'Learn More'
+      url: 'https://unsplash.com'
 categories:
   - Layout
   - Uncategorized
@@ -23,8 +23,8 @@ This post has a header image with an OpenGraph override.
 header:
   overlay_image: /assets/images/unsplash-image-1.jpg
   og_image: /assets/images/page-header-og-image.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: 'Photo credit: [**Unsplash**](https://unsplash.com)'
   actions:
-    - label: "Learn More"
-      url: "https://unsplash.com"
+    - label: 'Learn More'
+      url: 'https://unsplash.com'
 ```
